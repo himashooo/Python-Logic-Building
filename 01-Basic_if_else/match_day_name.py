@@ -14,5 +14,5 @@ match n:
         print("Saturday")
     case 7:
         print("Sunday")
-    case _:
+    case _:                     #By default it input does not match
         print("Wrong input")
