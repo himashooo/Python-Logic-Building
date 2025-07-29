@@ -1,3 +1,5 @@
+#Count how many times a word appears in a string.
+
 l="Hey himanshu,how are you himanshu,where do you live Himanshu"
 n="himanshu"
 c=0

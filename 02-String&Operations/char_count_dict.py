@@ -1,3 +1,5 @@
+#Count how many times each character appears in a string (use dictionary).
+
 A="himanshu"
 dic={}
 for i in A:

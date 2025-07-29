@@ -1,3 +1,5 @@
+#Count words in a sentence.
+
 import string  
 def ct(n):
     n=n.replace(" ","")         #remove all spaces

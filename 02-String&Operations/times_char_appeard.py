@@ -1,3 +1,5 @@
+#Count how many times a char appears in a string.
+
 string_="himanshu"
 checked=[]                        #to store already counted char
 for i in string_:

@@ -1,3 +1,5 @@
+#Replace all vowels in a string with '*'.
+
 l="hello himanshu how are you"
 vowels="aAeEiIoOuU"
 new_=""

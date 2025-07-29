@@ -1,3 +1,5 @@
+#Find the frequency of each word in a paragraph.
+
 import string
 par_="hello good evening"
 par_new="".join([ch for ch in par_ if ch not in string.punctuation and ch!=" "])      #remove punctuation 

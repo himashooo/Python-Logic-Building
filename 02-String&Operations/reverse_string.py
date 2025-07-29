@@ -1,3 +1,5 @@
+#Create a function that accepts a string and returns it reversed
+
 def rev_str(l):
     rev=""
     for i in l[::-1]: #reverse string

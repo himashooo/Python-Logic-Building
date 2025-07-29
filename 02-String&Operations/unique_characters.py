@@ -1,3 +1,5 @@
+#Check if a string contains all unique characters.
+
 l="himanshu"
 a=[]
 unique=True
