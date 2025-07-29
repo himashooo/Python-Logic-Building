@@ -1,3 +1,5 @@
+#Find the second largest number in a list.
+
 def xyz(l):
     L=list(set(l))          #removes duplicates
     if len(L)<2:

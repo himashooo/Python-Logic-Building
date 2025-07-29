@@ -1,3 +1,5 @@
+#Check whether a number is a palindrome or not (e.g., 121 is a palindrome).
+
 n=int(input("enter a number: "))
 x=n                             #store original no
 rev=0

@@ -1,3 +1,5 @@
+#Use match-case to print day names based on number (1 = Monday, etc.).
+
 n=int(input("enter a day 1 to 7: "))
 match n:
     case 1:
