@@ -1,7 +1,7 @@
 def rev_str(l):
     rev=""
-    for i in l[::-1]:
-        rev+=i
+    for i in l[::-1]: #reverse string
+        rev+=i        #append each char
     return rev   
 print(rev_str("HIMANSHU"))
 

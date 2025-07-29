@@ -1,7 +1,7 @@
 import string  
 def ct(n):
-    n=n.replace(" ","")
-    cleaned = ''.join(char for char in n if char not in string.punctuation)
+    n=n.replace(" ","")         #remove all spaces
+    cleaned = ''.join(char for char in n if char not in string.punctuation)     #remove punctuation
     count=0
     for i in cleaned:
         count+=1
