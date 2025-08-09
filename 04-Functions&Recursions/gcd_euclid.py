@@ -1,6 +1,8 @@
+#Find the GCD of two numbers using Euclid's algorithm.
+
 def gcd(a,b):
-    factor1=[]
-    factor2=[]
+    factor1=[]              #factors of a
+    factor2=[]              #factors of b
     common=[]
     for i in range(1,a):
         if a%i==0:
@@ -10,9 +12,9 @@ def gcd(a,b):
         if b%j==0:
             factor2.append(j)
     print(f"Factors of b={factor2}")
-    common=set(factor1) & set(factor2)
+    common=set(factor1) & set(factor2)          #common factors
     print(common)
-    c=max(common)
+    c=max(common)               #largest common factor = GCD
     print(c)
     
 gcd(12,18)
